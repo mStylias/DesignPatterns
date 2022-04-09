@@ -16,10 +16,9 @@ public class Main {
 		f.setVisible(true);
 		
 												//APPLICATION 2
-		System.out.println("Lower Right Corner. X: " + myShape.getXLowerRightCorner()
-		                                    + " Y: " + myShape.getYLowerRightCorner());
+		GeometricShape geometricShape = new GeometricShape(myShape);
+		System.out.println("Lower Right Corner. X: " + geometricShape.getXLowerRightCorner()
+		                                    + " Y: " + geometricShape.getYLowerRightCorner());
 
-		myShape.paint();
-		                             
 	}	
 }
