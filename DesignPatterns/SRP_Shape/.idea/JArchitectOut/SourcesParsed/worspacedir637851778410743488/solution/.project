@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>solution</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>testcommand</name>
+			<arguments>
+				<dictionary>
+					<key>BuildID</key>
+					<value>Build0</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>StyleM/GeometricShape.java</name>
+			<type>1</type>
+			<location>C:/Users/Michalis/Documents/GitHub/DesignPatterns/DesignPatterns/SRP_LCOM/src/com/StyleM/GeometricShape.java</location>
+		</link>
+		<link>
+			<name>StyleM/Main.java</name>
+			<type>1</type>
+			<location>C:/Users/Michalis/Documents/GitHub/DesignPatterns/DesignPatterns/SRP_LCOM/src/com/StyleM/Main.java</location>
+		</link>
+		<link>
+			<name>StyleM/NumberManipulator.java</name>
+			<type>1</type>
+			<location>C:/Users/Michalis/Documents/GitHub/DesignPatterns/DesignPatterns/SRP_LCOM/src/com/StyleM/NumberManipulator.java</location>
+		</link>
+		<link>
+			<name>StyleM/Shape.java</name>
+			<type>1</type>
+			<location>C:/Users/Michalis/Documents/GitHub/DesignPatterns/DesignPatterns/SRP_LCOM/src/com/StyleM/Shape.java</location>
+		</link>
+	</linkedResources>
+</projectDescription>

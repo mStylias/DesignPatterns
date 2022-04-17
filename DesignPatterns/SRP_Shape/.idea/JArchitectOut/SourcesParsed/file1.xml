@@ -1,0 +1,5 @@
+<root><type name="NumberManipulator" s="2"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<field name="number" s="3" type="int" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<method name="numberValue()" s="4" e="6" n ="false" sta ="false" sync ="false" vis="public" return="int"  signature="()"><metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="addOne()" s="7" e="9" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="subtractOne()" s="10" e="12" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><metrics cc="1" cm="0" vars="0" loc="1"/></method>
+</type></root>

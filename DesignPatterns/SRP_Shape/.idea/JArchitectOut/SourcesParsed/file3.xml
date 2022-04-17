@@ -1,0 +1,19 @@
+<root><type name="Shape" s="5"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<extends>
+<extend  name="javax.swing.JComponent"></extend></extends>
+<field name="xUpperLeftCorner" s="7" type="int" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="yUpperLeftCorner" s="8" type="int" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="width" s="9" type="int" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="height" s="10" type="int" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="rect" s="12" type="java.awt.Rectangle" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<method name="getxUpperLeftCorner()" s="14" e="16" n ="false" sta ="false" sync ="false" get ="true" vis="public" return="int"  signature="()"><metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="getyUpperLeftCorner()" s="17" e="19" n ="false" sta ="false" sync ="false" get ="true" vis="public" return="int"  signature="()"><metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="getWidthLocal()" s="20" e="22" n ="false" sta ="false" sync ="false" vis="public" return="int"  signature="()"><metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="getHeightLocal()" s="23" e="25" n ="false" sta ="false" sync ="false" vis="public" return="int"  signature="()"><metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="Shape()" s="27" e="33" cons ="true" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><metrics cc="1" cm="0" vars="0" loc="4"/></method><method name="draw()" s="35" e="43" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><dm p="java.awt.Rectangle" s="Rectangle(int,int,int,int)"/>
+<dm p="java.awt.Component" s="repaint()"/>
+<metrics cc="1" cm="3" vars="0" loc="2"/></method><method name="paint(java.awt.Graphics)" s="45" e="52" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.awt.Graphics)"><params><param type="java.awt.Graphics"/></params><dm p="java.awt.Graphics2D" s="draw(java.awt.Shape)"/>
+<metrics cc="1" cm="2" vars="1" loc="3"/></method><method name="showRect()" s="54" e="56" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><dm p="java.io.PrintStream" s="println(int)"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method>
+</type></root>

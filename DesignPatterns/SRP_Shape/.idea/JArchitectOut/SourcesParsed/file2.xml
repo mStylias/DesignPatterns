@@ -1,0 +1,10 @@
+<root><type name="GeometricShape" s="2"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<field name="shape" s="3" type="Shape" vis="package"  fin ="true" sta ="false" c="0" >
+</field>
+<method name="GeometricShape(Shape)" s="5" e="7" cons ="true" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(Shape)"><params><param type="Shape"/></params><fm p="GeometricShape" s="shape"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="getXLowerRightCorner()" s="9" e="16" n ="false" sta ="false" sync ="false" vis="public" return="int"  signature="()"><dm p="Shape" s="getxUpperLeftCorner()"/>
+<dm p="Shape" s="getWidthLocal()"/>
+<metrics cc="1" cm="4" vars="0" loc="1"/></method><method name="getYLowerRightCorner()" s="18" e="25" n ="false" sta ="false" sync ="false" vis="public" return="int"  signature="()"><dm p="Shape" s="getyUpperLeftCorner()"/>
+<dm p="Shape" s="getHeightLocal()"/>
+<metrics cc="1" cm="4" vars="0" loc="1"/></method>
+</type></root>

@@ -1,0 +1,14 @@
+<root><type name="Main" s="4"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<method name="main(java.lang.String[])" s="5" e="22" n ="false" sta ="true" sync ="false" vis="public" return="void"  signature="(java.lang.String[])"><params><param type="java.lang.String[]"/></params><dm p="Shape" s="Shape()"/>
+<dm p="javax.swing.JFrame" s="JFrame()"/>
+<dm p="java.awt.Window" s="setSize(int,int)"/>
+<dm p="javax.swing.JFrame" s="setContentPane(java.awt.Container)"/>
+<dm p="javax.swing.JFrame" s="setDefaultCloseOperation(int)"/>
+<dm p="Shape" s="draw()"/>
+<dm p="java.awt.Window" s="setVisible(boolean)"/>
+<dm p="GeometricShape" s="GeometricShape(Shape)"/>
+<dm p="java.io.PrintStream" s="println(java.lang.String)"/>
+<dm p="GeometricShape" s="getXLowerRightCorner()"/>
+<dm p="GeometricShape" s="getYLowerRightCorner()"/>
+<metrics cc="1" cm="0" vars="3" loc="9"/></method>
+</type></root>

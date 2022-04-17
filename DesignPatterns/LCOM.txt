@@ -1,0 +1,6 @@
+Για το project SRP_Shape η LCOM είναι:
+* Shape -> 1 - ((2+2+2+2+2) / 5*7) = 1 - 0.71 = 0.29
+* GeometricShape -> 1 - (3 / 3*1) = 0
+
+Για το project SRP_Modem η LCOM είναι:
+* Modem -> 1 - (1 / 5*1) = 0.8

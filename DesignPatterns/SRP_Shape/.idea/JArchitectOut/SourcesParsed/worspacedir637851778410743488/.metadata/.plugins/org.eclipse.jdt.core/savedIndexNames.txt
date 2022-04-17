@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Michalis\Documents\GitHub\DesignPatterns\DesignPatterns\SRP_LCOM\.idea\JArchitectOut\SourcesParsed\worspacedir637851778410743488\.metadata\.plugins\org.eclipse.jdt.core
+1126859118.index
+1084109902.index
+2310284740.index
