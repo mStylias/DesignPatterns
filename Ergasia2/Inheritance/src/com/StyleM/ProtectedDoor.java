@@ -1,16 +1,17 @@
 package com.StyleM;
 
-public class ProtectedDoor implements Door {
+public class ProtectedDoor implements Door, PasswordClient {
 
+    private PasswordProtector passwordProtector;
     private boolean isLocked = false;
-    private final DoorPasswordAdapter doorPasswordAdapter;
 
-    public ProtectedDoor() {
-        this.doorPasswordAdapter = new DoorPasswordAdapter(this);
+    public ProtectedDoor(PasswordProtector passwordProtector) {
+        setPasswordProtector(passwordProtector);
     }
 
-    public DoorPasswordAdapter getDoorPasswordAdapter() {
-        return doorPasswordAdapter;
+    @Override
+    public void setPasswordProtector(PasswordProtector protector) {
+        this.passwordProtector = protector;
     }
 
     /**
@@ -42,7 +43,7 @@ public class ProtectedDoor implements Door {
      */
     @Override
     public boolean unlock(String code) {
-        if (doorPasswordAdapter.check(code)) {
+        if (passwordProtector.check(code)) {
             isLocked = false;
             return true;
         }
@@ -56,4 +57,6 @@ public class ProtectedDoor implements Door {
     public void alarm() {
         System.out.println("ALARM: IOUIOUIOUIOU");
     }
+
+
 }
